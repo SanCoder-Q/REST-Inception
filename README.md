@@ -19,10 +19,10 @@ REST 到 ROA (Resources Oriented Architecture)
     URL 应用广泛，具有良好的语意表达结构，是标识资源的最佳工具。
     
     例如：
-    ```http://www.tw.com/employess/528491```
-    ```http://www.amazon.com/orders/2015/07/14/27149```
+    ```http://www.tw.com/employess/528491
+    http://www.amazon.com/orders/2015/07/14/27149```
     
-    同事，URL 也是 HTTP 请求的重要信息之一。
+    同时，URL 也是 HTTP 请求的重要信息之一。
     
 - 使用“链接”关联相关的资源，为资源在表现层的状态转换提供支持
 
