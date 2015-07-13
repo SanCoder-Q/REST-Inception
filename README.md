@@ -19,19 +19,21 @@ REST 到 ROA (Resources Oriented Architecture)
     URL 应用广泛，具有良好的语意表达结构，是标识资源的最佳工具。
     
     例如：
-    ```http://www.tw.com/employess/528491
-    http://www.amazon.com/orders/2015/07/14/27149```
-    
+    ```
+    http://www.tw.com/employess/528491
+    http://www.amazon.com/orders/2015/07/14/27149
+    ```
+
     同时，URL 也是 HTTP 请求的重要信息之一。
-    
+
 - 使用“链接”关联相关的资源，为资源在表现层的状态转换提供支持
 
     资源在表现层的状态转变可分为两类，一是相同资源的不同表现形式的转变，二是不同资源表现的转变。**URL** 为第一类转变提供支持，而 **超链接** 则为第二类提供支持。
-    
+
     从另一个角度将“超链接”为 URL 提供了应用基础，而 URL 又是“超链接”的实现基础。
-    
+
     例如，要采用xml展现一部电影的信息，我们可以定义为：
-    
+
     ```
     <movie>
         <name>Inception</name>
@@ -48,6 +50,7 @@ REST 到 ROA (Resources Oriented Architecture)
         <story>...</story>
     </movie>
     ```
+    
     超链接是资源间各种关联的重要良好表现形式。因此，一个RESTful的Web应用设计应尽可能在表现层采用这种形式描述各类资源的关联。
     
 - 使用统一的 CRUD 接口
